@@ -1,0 +1,45 @@
+// COLORS
+$gray: #546E7A;
+$gray-light: #B0BEC5;
+$gray-dark: #37474F;
+
+$red: #c62141;
+
+/**
+  *
+  * FONT
+  *
+**/
+
+@font-face {
+  font-family: roboto-light;
+  src: url(../Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(../font/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: roboto-slab-light;
+  src: url(../font/RobotoSlab-Light.ttf);
+}
+
+@font-face {
+  font-family: roboto-slab;
+  src: url(../font/RobotoSlab-Regular.ttf);
+}
+
+$base-font-family: 'roboto', sans-serif;
+$base-font-size: 18px;
+$base-font-weight: normal;
+$base-line-height: 1.2;
+
+$sans-light: 'roboto-slab-light', sans;
+$sans: 'roboto-slab', sans;
+$sans-serif-light: 'roboto-light', sans-serif;
+
+
+// variables - layout
+$container-padding: 20px;

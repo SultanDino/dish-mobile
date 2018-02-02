@@ -1,0 +1,34 @@
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+
+
+/**
+  * HEADER
+**/
+.header {
+	@include flexbox(row, space-between, center);
+	@include container-padding;
+}
+
+
+/**
+  * MAIN
+**/
+.section {
+	width: 100%;
+	&.--hero {
+		@import 'modules/mod_hero';
+	}
+
+	&.--about {
+		@include container-padding;
+		@import 'modules/mod_about';
+	}
+
+	&.--types {
+		@include container-padding;
+		margin-top: 40px;
+		@import 'modules/mod_type';
+	}
+}

@@ -1,0 +1,26 @@
+> .type-wrapper {
+    > .title { 
+        font-family: $sans;
+        font-size: .9em;
+        margin-bottom: 30px;
+        &.--main { text-align: center; text-transform: uppercase; }
+        &.--subtype { margin-left: 20px; }
+    }
+    
+    > .items-wrapper {
+        @include flexbox(row, flex-start, baseline);
+        flex-wrap: wrap;
+        &.--subtype { padding: 0 10px; }
+        > .item {
+            @include flexbox(column, center, center);
+            margin-bottom: 60px;
+            width: 33.33%;
+            > .label { 
+                font-size: .8em;
+                margin-top: 10px;
+                text-align: center;
+                padding: 0 10px;
+            }
+        }
+    }
+}

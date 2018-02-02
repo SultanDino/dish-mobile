@@ -1,0 +1,24 @@
+/* ==========================================================================
+    BASE
+   ========================================================================== */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+*::before,
+*::after {
+	display: block;
+}
+
+body {
+	color: $gray;
+	font-family: $base-font-family;
+	font-size: $base-font-size;
+	font-weight: $base-font-weight;
+	line-height: $base-line-height;
+}
+
+

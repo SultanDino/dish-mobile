@@ -1,0 +1,16 @@
+> .rating-wrapper {
+    @include flexbox(column, center, center);
+    margin-top: 30px;
+
+    > .stars {}
+    > .title-wrapper {
+        margin-top: 10px;
+        @include flexbox(row, center, center);
+        > .title { 
+            color: $gray-light;
+            font-size: .7em; 
+            margin-right: 10px; 
+            text-transform: uppercase; 
+        }
+    }
+}

@@ -1,0 +1,12 @@
+> .location-wrapper {
+    @include flexbox(row, flex-start, center);
+    margin-top: 30px;
+    
+    > .flag {}
+    > .title-wrapper { 
+        margin-left: 20px; 
+        font-size: .9em;
+        > .title-desc { color: $red; text-transform: uppercase; }
+    }
+    > .map { margin-left: auto; }
+}
